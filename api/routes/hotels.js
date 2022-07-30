@@ -24,7 +24,6 @@ router.get('/find/:id', getHotel)
 router.get('/', getHotels)
 // Others
 router.get('/count-by-city', countByCity)
-// router.get('/count-by-city', countByCity)
 router.get('/count-by-type', countByType)
 
 export default router
